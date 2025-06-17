@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['paybin.io'],
+    domains: ['framerusercontent.com'],
   },
 }
 
