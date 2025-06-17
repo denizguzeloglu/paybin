@@ -5,28 +5,10 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Paybin - Accept Crypto Payments Instantly & Securely',
-  description: 'Simplify invoicing and payment collection with our integrated system. Accept Bitcoin, Ethereum, USDT, and more cryptocurrencies with ease.',
-  keywords: 'cryptocurrency, payments, bitcoin, ethereum, USDT, payment gateway, crypto payments',
-  openGraph: {
-    title: 'Paybin - Accept Crypto Payments Instantly & Securely',
-    description: 'Simplify invoicing and payment collection with our integrated system.',
-    type: 'website',
-    url: 'https://paybin.io',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Paybin - Cryptocurrency Payment Platform',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Paybin - Accept Crypto Payments',
-    description: 'The most trusted cryptocurrency payment platform for businesses',
-    images: ['/og-image.png'],
+  title: 'Paybin',
+  description: 'Accept payments in Bitcoin, Ethereum, USDT, and other digital currencies anonymously with Paybin',
+  icons: {
+    icon: 'https://framerusercontent.com/images/6FspHPLhbGLiuUBCj1IwTaxpc4.png',
   },
 }
 
